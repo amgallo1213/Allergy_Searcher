@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const SearchBar = () => {
 
     const [searchInput, setSearchInput] = useState("");
@@ -13,7 +14,10 @@ const SearchBar = () => {
             {name: "Indian Red Lopez", allergens: "gluten, bivalves, shellfish, onion, cilantro" },
             {name: "Bazooka Limon", allergens: "garlic, onion, dairy, tree nuts, nightshades" },
             {name: "Tito Santana", allergens: "garlic, onion, cilantro, mango, bell pepper" },
-            {name: "salsa Mexicana", allergens: "onion, cilantro, soy, citrus, nightshade, alcohol" }
+            {name: "salsa Mexicana", allergens: "onion, cilantro, soy, citrus, nightshade, alcohol" },
+            {name: "Melted Manchego", allergens: "dairy, onion, soy" },
+            {name: "Nacho Mamma", allergens: "garlic, onion, soy, cilantro, dairy, nightshade, citrus" },
+            {name: "Macho Nachos", allergens: "garlic, onion, soy, cilantro, diary, nightshade, citrus" },
         ]
 
         const handleChange = (e) => {
@@ -23,8 +27,10 @@ const SearchBar = () => {
 
         if (menuItems.length > 0) {
             menuItems.filter((item) => {
-                return item.name.match(menuItems);
+                return item.name.match(searchInput);
             });
+
+
     }
 
     return ( 
@@ -32,18 +38,17 @@ const SearchBar = () => {
             
             <input
                 type="search"
-                placeholder="Search here"
                 onChange={handleChange}
                 value={searchInput} />
 
             {menuItems.map((item, index) => (
 
-               
+
                 <div>
-                    <p>{item.name}</p>
+                    <h3>{item.name}</h3>
                     <p>{item.allergens}</p>
                 </div>
-               
+
 
             ))}
 
