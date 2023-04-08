@@ -5,7 +5,14 @@ function SearchBar({placeholder, data}){
 
     const [filteredData, setFilteredData] = useState([]);
 
-
+    const handleFilter = (event) => {
+        const searchWord = event.target.value;
+        const newFilter = data.filter((value) => {
+            return value.title.toLowerCase().includes(searchWord.toLowerCase());
+            // return value.title.any(searchWord);
+        });
+        setFilteredData(newFilter);
+    };
     
 
     return ( 
@@ -14,15 +21,21 @@ function SearchBar({placeholder, data}){
                 <input 
                 type='text'
                 placeholder={placeholder}
+                onChange={handleFilter}
                 />
                 <div className='searchIcon'><i class="bi bi-search"></i></div>
             </div>
-            <div className='dataResult'>
-                {data.map((value, key) => {
-                    return <div><p className='hoverResult'>{value.name}</p></div>
-                })}
-            </div>
-            
+            {filteredData.length !== 0 && (
+                <div className='dataResult'>
+                    {filteredData.slice(0, 15).map((value, key) => {
+                        return (
+                        <div>
+                            <p className='hoverResult'>{value.name}</p>
+                        </div>
+                        );
+                    })}
+                </div>
+        )}
 
 
         </div>
