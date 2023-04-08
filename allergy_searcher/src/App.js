@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import SearchBar from './components/SearchBar';
+import MenuData from './Data.json';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Search for a Menu Item</h1>
-      <SearchBar />
+      <h1>El Vez Allergy Search</h1>
+      <SearchBar placeholder="Enter Menu Item or Allergen" data={MenuData} />
     </div>
   );
 }

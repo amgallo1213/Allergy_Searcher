@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Salsa Verde", "allergens": 
+        "garlic, onion, cilantro" 
+    },
+    {   
+        "name": "Salsa Roja", 
+        "allergens": "garlic, onion, cilantro, soy" 
+    },
+    {
+        "name": "El Vez Guac", 
+        "allergens": "garlic, onion, cilantro, soy, citrus, nightshade" 
+    },
+    {   
+        "name": "Speciality Guac Base", 
+        "allergens": "citrus" 
+    },
+    {   
+        "name": "De La Hoya", 
+        "allergens": "garlic, onion, soy, citrus" 
+    },
+    {   
+        "name": "Indian Red Lopez", 
+        "allergens": "gluten, bivalves, shellfish, onion, cilantro" 
+    },
+    {   
+        "name": "Bazooka Limon", 
+        "allergens": "garlic, onion, dairy, tree nuts, nightshades" 
+    },
+    {   
+        "name": "Tito Santana", 
+        "allergens": "garlic, onion, cilantro, mango, bell pepper" 
+    },
+    {
+        "name": "Salsa Mexicana", 
+        "allergens": "onion, cilantro, soy, citrus, nightshade, alcohol" 
+    },
+    {
+        "name": "Melted Manchego", 
+        "allergens": "dairy, onion, soy" 
+    },
+    {
+        "name": "Nacho Mamma", 
+        "allergens": "garlic, onion, soy, cilantro, dairy, nightshade, citrus" 
+    },
+    {   "name": "Macho Nachos", 
+        "allergens": "garlic, onion, soy, cilantro, diary, nightshade, citrus" 
+    }
+]
