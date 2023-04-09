@@ -45,5 +45,37 @@
     },
     {   "name": "Macho Nachos", 
         "allergens": "garlic, onion, soy, cilantro, diary, nightshade, citrus" 
+    },
+    {
+        "name": "Empanadas", 
+        "allergens": "garlic, onion, soy, cilantro, dairy, gluten, peanuts" 
+    },
+    {
+        "name": "Chicken Quesadilla", 
+        "allergens": "garlic, onion, cilantro, dairy, nightshade, citrus, gluten" 
+    },
+    {
+        "name": "Shrimp Quesadilla", 
+        "allergens": "garlic, onion, cilantro, dairy, nightshade, citrus, gluten" 
+    },
+    {
+        "name": "Steak Quesadilla", 
+        "allergens": "garlic, onion, soy, cilantro, dairy, nightshade, citrus" 
+    },
+    {
+        "name": "Tuna Tostada", 
+        "allergens": "onion, soy, cilantro, citrus" 
+    },
+    {
+        "name": "Carne Fundido", 
+        "allergens": "onion, soy, cilantro, dairy, gluten" 
+    },
+    {
+        "name": "Mushroom Fundido", 
+        "allergens": "onion, soy, cilantro, dairy, citrus, gluten" 
+    },
+    {
+        "name": "Tortilla Soup", 
+        "allergens": "garlic, onion, cilantro, dairy, nightshade" 
     }
 ]
