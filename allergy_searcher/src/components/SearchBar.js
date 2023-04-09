@@ -10,8 +10,7 @@ function SearchBar({placeholder, data}){
         const searchWord = event.target.value;
         setWordEntered(searchWord);
         const newFilter = data.filter((value) => {
-            // return value.title.toLowerCase().includes(searchWord.toLowerCase()); 
-            return value.title.includes(searchWord.toLowerCase()); 
+            return value.name.toLowerCase().includes(searchWord.toLowerCase()); 
         });
 
         if (searchWord === ""){
