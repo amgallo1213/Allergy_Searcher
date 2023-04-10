@@ -16,19 +16,19 @@
         "allergens": "citrus" 
     },
     {   
-        "name": "De La Hoya", 
+        "name": "De La Hoya Guac", 
         "allergens": "garlic, onion, soy, citrus" 
     },
     {   
-        "name": "Indian Red Lopez", 
+        "name": "Indian Red Lopez Guac", 
         "allergens": "gluten, bivalves, shellfish, onion, cilantro" 
     },
     {   
-        "name": "Bazooka Limon", 
+        "name": "Bazooka Limon Guac", 
         "allergens": "garlic, onion, dairy, tree nuts, nightshades" 
     },
     {   
-        "name": "Tito Santana", 
+        "name": "Tito Santana Guac", 
         "allergens": "garlic, onion, cilantro, mango, bell pepper" 
     },
     {
@@ -77,5 +77,57 @@
     {
         "name": "Tortilla Soup", 
         "allergens": "garlic, onion, cilantro, dairy, nightshade" 
+    },
+    {
+        "name": "Black Bean Enchilada", 
+        "allergens": "onion, soy, cilantro, dairy, nightshade, bell pepper" 
+    },
+    {
+        "name": "Chicken Enchilada", 
+        "allergens": "garlic, onion, soy, dairy, nightshade, coconut" 
+    },
+    {
+        "name": "Short Rib Enchilada", 
+        "allergens": "onion, soy, cilantro, dairy, nightshade, sesame, hazelnut, almond, peanut, bell pepper" 
+    },
+    {
+        "name": "Shrimp Enchilada",
+        "allergens": "onion, soy, dairy, shellfish"
+    },
+    {
+        "name": "Steak Tacos",
+        "allergens": "onion, soy, cilantro, nightshade, citrus"
+    },
+    {
+        "name": "Tacos Arabes",
+        "allergens": "garlic, onion, cilantro, dairy, gluten, nightshade, citrus"
+    },
+    {
+        "name": "Mahi Tacos",
+        "allergens": "onion, soy, citrus, gluten, eggs"
+    },
+    {
+        "name": "Chicken Tacos",
+        "allergens": "garlic, onion, cilantro, dairy, nightshade"
+    },
+    {
+        "name": "Shrimp Tacos",
+        "allergens": "garlic, onion, cilantro, dairy, nightshade, gluten"
+    },
+    {
+        "name": "Carnitas Tacos",
+        "allergens": "garlic, onion, cilantro, citrus, nightshade"
+    },
+    {
+        "name": "Tacos Al Carbon",
+        "allergens": "depends on protein choice"
+    },
+    {
+        "name": "Carne Asada",
+        "allergens": "garlic, onion, cilantro, dairy, nightshade"
+    },
+    {
+        "name": "Snapper A La Veracruzana",
+        "allergens": "garlic, onion, cilantro, shellfish, nightshade"
     }
 ]

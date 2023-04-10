@@ -11,6 +11,7 @@ function SearchBar({placeholder, data}){
         setWordEntered(searchWord);
         const newFilter = data.filter((value) => {
             return value.name.toLowerCase().includes(searchWord.toLowerCase()); 
+            // return value.allergens.toLowerCase().includes(searchWord.toLowerCase()); 
         });
 
         if (searchWord === ""){
