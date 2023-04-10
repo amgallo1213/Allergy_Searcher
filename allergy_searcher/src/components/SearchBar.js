@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from '@reach/router';
 
 function SearchBar({placeholder, data}){
 
@@ -37,7 +37,8 @@ function SearchBar({placeholder, data}){
                     {filteredData.slice(0, 15).map((value, key) => {
                         return (
                         <div>
-                            <p className='hoverResult'>{value.name}</p>
+                            <Link to='/home' className='hoverResult'> {value.name}</Link>
+                            {/* <p className='hoverResult'>{value.name}</p> */}
                         </div>
                         );
                     })}
