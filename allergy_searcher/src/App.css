@@ -41,25 +41,15 @@ h3  {
   font-size: 18px;
   padding: 15px;
   height: 40px;
-  width: 300px;
+  width: 400px;
   box-shadow: var(--box-shadow);
 }
 
-.searchIcon {
-  height: 30px;
-  width: 30px;
-  
-  background-color: white;
-  display: inline-block;
-  place-items: center;
-}
 
 input:focus {
   outline: none;
 }
-.searchIcon svg {
-  font-size: 35px;
-}
+
 
 .dataResult {
   /* margin-top: 5px; */
@@ -107,9 +97,9 @@ a {
   background-color: lightgrey;
 } */
 
-#clearBtn {
+/* #clearBtn {
   cursor: pointer;
-}
+} */
 
 
 .card{
@@ -138,30 +128,3 @@ a {
 
 
 
-
-/* h4  {
-  margin: 0;
-  text-transform: uppercase;
-} */
-
-/* .inc-exp-container  {
-  background-color: #fff;
-  box-shadow: var(--box-shadow);
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-}
-
-.btn  {
-  cursor: pointer;
-  background-color: #9c88ff;
-  box-shadow: var(--box-shadow);
-  color: #fff;
-  border: 0;
-  display: block;
-  font-size: 16px;
-  margin: 10px 0 30px;
-  padding: 10px;
-  width: 100%;
-} */
