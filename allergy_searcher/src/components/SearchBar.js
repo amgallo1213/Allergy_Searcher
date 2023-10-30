@@ -33,7 +33,7 @@ function SearchBar({ placeholder, data }) {
                         onChange={handleFilter}
                     />
                 </div>
-                {filteredData.length !== 0 && (
+                {/* {filteredData.length !== 0 && (
                     <div className='dataResult'>
                         {filteredData.slice(0, 15).map((value, key) => {
                             return (
@@ -43,7 +43,7 @@ function SearchBar({ placeholder, data }) {
                             );
                         })}
                     </div>
-                )} 
+                )}  */}
             </div>
 
             {
