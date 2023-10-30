@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 function SearchBar({ placeholder, data }) {
 
+
     const [filteredData, setFilteredData] = useState([]);
     const [wordEntered, setWordEntered] = useState("");
 

@@ -1,137 +1,226 @@
 [
     {
-        "name": "Salsa Verde", 
-        "allergens": "garlic, onion, cilantro" 
-    },
-    {   
-        "name": "Salsa Roja", 
-        "allergens": "garlic, onion, cilantro, soy" 
+        "name": "Original Guac", 
+        "allergens": "citrus/fruit,"
     },
     {
-        "name": "El Vez Guac", 
-        "allergens": "garlic, onion, cilantro, soy, citrus, nightshade" 
-    },
-    {   
-        "name": "Speciality Guac Base", 
-        "allergens": "citrus" 
-    },
-    {   
-        "name": "De La Hoya Guac", 
-        "allergens": "garlic, onion, soy, citrus" 
-    },
-    {   
-        "name": "Indian Red Lopez Guac", 
-        "allergens": "gluten, bivalves, shellfish, onion, cilantro" 
-    },
-    {   
-        "name": "Bazooka Limon Guac", 
-        "allergens": "garlic, onion, dairy, tree nuts, nightshades" 
-    },
-    {   
-        "name": "Tito Santana Guac", 
-        "allergens": "garlic, onion, cilantro, mango, bell pepper" 
+        "name": "Indian Red Lopez Guac",
+        "allergens": "citrus/fruit, shellfish"
     },
     {
-        "name": "Salsa Mexicana", 
-        "allergens": "onion, cilantro, soy, citrus, nightshade, alcohol" 
-    },
-
-
-
-    
-    {
-        "name": "Melted Manchego", 
-        "allergens": "dairy, onion, soy" 
+        "name": "De La Hoya Guac",
+        "allergens": "citrus/fruit,"
     },
     {
-        "name": "Nacho Mamma", 
-        "allergens": "garlic, onion, soy, cilantro, dairy, nightshade, citrus" 
-    },
-    {   "name": "Macho Nachos", 
-        "allergens": "garlic, onion, soy, cilantro, diary, nightshade, citrus" 
+        "name": "Bazooka Limon Guac",
+        "allergens": "citrus/fruit, nuts"
     },
     {
-        "name": "Empanadas", 
-        "allergens": "garlic, onion, soy, cilantro, dairy, gluten, peanuts" 
+        "name": "Tito Santana Guac",
+        "allergens": "citrus/fruit,"
     },
     {
-        "name": "Chicken Quesadilla", 
-        "allergens": "garlic, onion, cilantro, dairy, nightshade, citrus, gluten" 
+        "name": "Nacho Mama",
+        "allergens": "citrus/fruit,"
     },
     {
-        "name": "Shrimp Quesadilla", 
-        "allergens": "garlic, onion, cilantro, dairy, nightshade, citrus, gluten" 
+        "name": "Chicken Nachos",
+        "allergens": "citrus/fruit,"
     },
     {
-        "name": "Steak Quesadilla", 
-        "allergens": "garlic, onion, soy, cilantro, dairy, nightshade, citrus" 
+        "name": "Chorizo Nachos",
+        "allergens": "citrus/fruit,"
     },
     {
-        "name": "Tuna Tostada", 
-        "allergens": "onion, soy, cilantro, citrus" 
+        "name": "Salsa Mexicana",
+        "allergens": "citrus/fruit, alcohol"
     },
     {
-        "name": "Carne Fundido", 
-        "allergens": "onion, soy, cilantro, dairy, gluten" 
+        "name": "Melted Manchego",
+        "allergens": "dairy"
     },
     {
-        "name": "Mushroom Fundido", 
-        "allergens": "onion, soy, cilantro, dairy, citrus, gluten" 
+        "name": "Tortilla Chips",
+        "allergens": "corn"
     },
     {
-        "name": "Tortilla Soup", 
-        "allergens": "garlic, onion, cilantro, dairy, nightshade" 
+        "name": "Salsa Roja",
+        "allergens": "soy"
     },
     {
-        "name": "Black Bean Enchilada", 
-        "allergens": "onion, soy, cilantro, dairy, nightshade, bell pepper" 
+        "name": "Salsa Verde",
+        "allergens": "citrus/fruit"
     },
     {
-        "name": "Chicken Enchilada", 
-        "allergens": "garlic, onion, soy, dairy, nightshade, coconut" 
+        "name": "Tuna Tostadas",
+        "allergens": "citrus/fruit, eggs (aioli)"
     },
     {
-        "name": "Short Rib Enchilada", 
-        "allergens": "onion, soy, cilantro, dairy, nightshade, sesame, hazelnut, almond, peanut, bell pepper" 
+        "name": "Shrimp Quesadilla",
+        "allergens": "citrus/fruit, shellfish"
     },
     {
-        "name": "Shrimp Enchilada",
-        "allergens": "onion, soy, dairy, shellfish"
+        "name": "Chicken Quesadilla",
+        "allergens": "citrus/fruit,"
+    },
+    {
+        "name": "Steak Quesadilla",
+        "allergens": "dairy"
+    },
+    {
+        "name": "Queso Fundido de Carne",
+        "allergens": "dairy"
+    },
+    {
+        "name": "Queso Fundido de Hongos",
+        "allergens": "dairy"
+    },
+    {
+        "name": "Talyuda",
+        "allergens": "citrus/fruit,"
+    },
+    {
+        "name": "Empanadas",
+        "allergens": "nuts (sauce),"
+    },
+    {
+        "name": "Tortilla Soup",
+        "allergens": "citrus/fruit,"
+    },
+    {
+        "name": "Mexican Chopped Salad",
+        "allergens": "citrus/fruit, seeds"
+    },
+    {
+        "name": "Ceaser Salad",
+        "allergens": "citrus/fruit, eggs (dressing)"
+    },
+    {
+        "name": "Carne Asada Burrito",
+        "allergens": "citrus/fruit, diary, soy, wheat/gluten (tortilla), onion/garlic, cilantro"
+    },
+    {
+        "name": "Vegan Tofu Burrito",
+        "allergens": "citrus/fruit, soy, wheat/gluten, onion/garlic, mushrooms, cilantro"
+    },
+    {
+        "name": "Chicken Burrito",
+        "allergens": "citrus/fruit, diary, soy, wheat/gluten (tortilla), onion/garlic, cilantro (salsa)"
     },
     {
         "name": "Steak Tacos",
-        "allergens": "onion, soy, cilantro, nightshade, citrus"
-    },
-    {
-        "name": "Tacos Arabes",
-        "allergens": "garlic, onion, cilantro, dairy, gluten, nightshade, citrus"
-    },
-    {
-        "name": "Mahi Tacos",
-        "allergens": "onion, soy, citrus, gluten, eggs"
+        "allergens": "citrus/fruit, soy, onion/garlic, cilantro"
     },
     {
         "name": "Chicken Tacos",
-        "allergens": "garlic, onion, cilantro, dairy, nightshade"
+        "allergens": "citrus/fruit (CHX), diary, soy (CHX), onion/garlic (CHX), cilantro (CHX)"
     },
     {
-        "name": "Shrimp Tacos",
-        "allergens": "garlic, onion, cilantro, dairy, nightshade, gluten"
+        "name": "Mahi Tacos",
+        "allergens": "citrus/fruit, eggs (aioli), soy, wheat/gluten, onion/garlic"
     },
     {
         "name": "Carnitas Tacos",
-        "allergens": "garlic, onion, cilantro, citrus, nightshade"
+        "allergens": "citrus/fruit, soy, onion/garlic, cilantro"
     },
     {
-        "name": "Tacos Al Carbon",
-        "allergens": "depends on protein choice"
+        "name": "Cauliflower Tacos",
+        "allergens": "citrus/fruit, nuts, seeds, onion/garlic, cilantro"
+    },
+    {
+        "name": "Shrimp Tacos", 
+        "allergens": "citrus/fruit, shellfish, diary, soy, cilantro"
+    },
+    {
+        "name": "Tacos Arabes",
+        "allergens": "citrus/fruit (cucumber salsa), seeds (sauce), dairy (yogurt sauce), soy, wheat/gluten, onion/garlic, cilantro (salsa)"
+    },
+    {
+        "name": "Shrimp Enchilada",
+        "allergens": "citrus/fruit, shellfish, diary, soy, onion/garlic, cliantro, bivalves (sauce)"
+    },
+    {
+        "name": "Short Rib Enchilada",
+        "allergens": "nuts, seeds, dairy, soy, wheat/gluten, onion/garlic, cilantro"
+    },
+    {
+        "name": "Black Bean Enchilada",
+        "allergens": "citrus/fruit, diary, soy, onion/garlic, cilantro"
+    },
+    {
+        "name": "Chicken Enchilada",
+        "allergens": "nuts (shea nut), dairy, soy, onion/garlic"
     },
     {
         "name": "Carne Asada",
-        "allergens": "garlic, onion, cilantro, dairy, nightshade"
+        "allergens": "citrus/fruit, dairy, soy, onion/garlic, cilantro"
     },
     {
-        "name": "Snapper A La Veracruzana",
-        "allergens": "garlic, onion, cilantro, shellfish, nightshade"
+        "name": "Snapper a la Veracruzana",
+        "allergens": "citrus/fruit (sauce), shellfish (sauce), dairy, soy, onion/garlic (sauce), cilantro"
+    },
+    {
+        "name": "Grilled Corn",
+        "allergens": "citrus/fruit, eggs, dairy, soy, onion/garlic"
+    },
+    {
+        "name": "Brussels Sprouts",
+        "allergens": "citrus/fruit, seeds (sesame), eggs, soy, onion/garlic, cilantro"
+    },
+    {
+        "name": "Poblano Corn Rice",
+        "allergens": "dairy, soy"
+    },
+    {
+        "name": "Sweet Plantains",
+        "allergens": "citrus/fruit, dairy, soy, wheat/gluten (fryer oil)"
+    },
+    {
+        "name": "Refried Beans",
+        "allergens": "dairy, soy, wheat/gluten (tortilla strips), onion/garlic"
+    },
+    {
+        "name": "Black Beans and Rice",
+        "allergens": "soy, onion/garlic"
+    },
+    {
+        "name": "El Vez Burger",
+        "allergens": "citrus/fruit, eggs, dairy, soy, wheat/gluten (bun), onion/garlic"
+    },
+    {
+        "name": "Breakfast Burrito",
+        "allergens": "citrus/fruit, alcohol, eggs, dairy, soy, wheat/gluten, onion/garlic, cilantro"
+    },
+    {
+        "name": "Avocado Toast",
+        "allergens": "citrus/fruit, eggs, dairy, wheat/gluten, onion/garlic, cilantro"
+    },
+    {
+        "name": "Huevos Rancheros",
+        "allergens": "citrus/fruit, eggs, soy, wheat/gluten (fryer oil), onion/garlic, cilantro"
+    },
+    {
+        "name": "Churros",
+        "allergens": "nuts (sauce), gluten, dairy, eggs"
+    },
+    {
+        "name": "Tres Leches",
+        "allergens": "citrus/fruit, gluten, dairy, eggs"
+    },
+    {
+        "name": "Flan",
+        "allergens": "citrus/fruit, dairy, eggs"
+    },
+    {
+        "name": "Choco Taco",
+        "allergens": "citrus/fruit, nuts, seeds, gluten, dairy,eggs"
+    },
+    {
+        "name": "Passion Fruit Sorbet",
+        "allergens": "citrus/fruit, gluten (garnish)"
+    },
+    {
+        "name": "Chocolate Ice Cream",
+        "allergens": "gluten (garnish), dairy, eggs"
     }
 ]

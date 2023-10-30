@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const MenuItem = (props) => {
 
-    const [menuItems, setMenuItems] = useState("");
+    const [menuItems, setMenuItems] = useState([]);
 
     return (
         <div>
