@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const MenuItem = (props) => {
+const MenuItem = (filteredData) => {
 
     const [menuItems, setMenuItems] = useState([]);
 
