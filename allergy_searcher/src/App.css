@@ -123,3 +123,18 @@ h4  {
   font-weight: 300;
 }
 
+@media  (max-width: 480px){
+  h1  {
+    font-size: 1.5rem;
+  }
+  .search input {
+    width: 200px;
+  }
+  .data result {
+    width: 200px;
+  }
+  .card {
+    width: 200px;
+  }
+}
+

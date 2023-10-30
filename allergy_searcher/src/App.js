@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Main from './views/Main';
 import SearchBar from './components/SearchBar';
 import MenuData from './Data.json';
