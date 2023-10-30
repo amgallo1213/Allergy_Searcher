@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Allergy_Searcher/static/css/main.ed51d9cc.css",
-    "main.js": "/Allergy_Searcher/static/js/main.b8d400fe.js",
+    "main.css": "/Allergy_Searcher/static/css/main.36784bae.css",
+    "main.js": "/Allergy_Searcher/static/js/main.e3dcc633.js",
     "index.html": "/Allergy_Searcher/index.html",
-    "main.ed51d9cc.css.map": "/Allergy_Searcher/static/css/main.ed51d9cc.css.map",
-    "main.b8d400fe.js.map": "/Allergy_Searcher/static/js/main.b8d400fe.js.map"
+    "main.36784bae.css.map": "/Allergy_Searcher/static/css/main.36784bae.css.map",
+    "main.e3dcc633.js.map": "/Allergy_Searcher/static/js/main.e3dcc633.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed51d9cc.css",
-    "static/js/main.b8d400fe.js"
+    "static/css/main.36784bae.css",
+    "static/js/main.e3dcc633.js"
   ]
 }
