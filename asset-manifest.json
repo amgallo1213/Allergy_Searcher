@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/allergy_searcher/static/css/main.23d9943b.css",
+    "main.js": "/allergy_searcher/static/js/main.b8d400fe.js",
+    "index.html": "/allergy_searcher/index.html",
+    "main.23d9943b.css.map": "/allergy_searcher/static/css/main.23d9943b.css.map",
+    "main.b8d400fe.js.map": "/allergy_searcher/static/js/main.b8d400fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23d9943b.css",
+    "static/js/main.b8d400fe.js"
+  ]
+}
